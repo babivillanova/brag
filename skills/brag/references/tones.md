@@ -2,6 +2,15 @@
 
 Seven tones. Each changes scripting energy, pacing, typography personality, and transition style.
 
+> **Colour and font family are not a tone decision in this fork.** They are fixed by
+> `references/brand.md`. Each preset's **Typography** line below still applies to *case, relative
+> scale, and density* — ALL CAPS versus mixed case, oversized versus sparse, tight versus airy. It
+> does **not** override the IPX family, weight, tracking, or palette. Read a note like "Heavy weight"
+> as "the heavier end of the IPX range", not as a licence to use 700.
+>
+> Two explicit rulings: `chaotic` keeps its caps and oversizing but drops the tilt, because tilted
+> type is decoration. `cinematic` may use ALL CAPS at large scale, at weight 300.
+
 ---
 
 ## `default`

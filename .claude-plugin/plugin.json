@@ -1,13 +1,20 @@
 {
   "name": "brag",
-  "description": "Turn the current project into a short, polished, shareable launch video using HyperFrames.",
-  "version": "0.2.2",
+  "description": "Turn the current project into a short, polished, shareable launch video using HyperFrames. IPX-branded fork: fixed house palette and typography from the IPX UI kit.",
+  "version": "0.2.2-ipx.1",
   "author": {
     "name": "Shunit Haviv Hakimi",
     "email": "shunithaviv@gmail.com"
   },
   "license": "MIT",
-  "homepage": "https://github.com/latent-spaces/brag",
-  "repository": "https://github.com/latent-spaces/brag",
-  "keywords": ["video", "launch", "hyperframes", "skill"]
+  "homepage": "https://github.com/babivillanova/brag",
+  "repository": "https://github.com/babivillanova/brag",
+  "keywords": [
+    "video",
+    "launch",
+    "hyperframes",
+    "skill",
+    "ipx",
+    "brand"
+  ]
 }

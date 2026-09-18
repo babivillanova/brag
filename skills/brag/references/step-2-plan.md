@@ -48,13 +48,16 @@ landing-page-only, write "none — landing-page only" and rely on Key moments in
 ## Format: [landscape / vertical / square] — [width]x[height]
 ## Duration: [target seconds]
 
-## Visual identity (from the project)
-- Background: [exact color value]
-- Accent: [exact color value]
-- Text: [exact color value]
-- Display font: [name]
-- Body font: [name]
-- Strongest visual element: [what from the site to reference]
+## Visual identity (IPX house brand — fixed)
+Values come from `references/brand.md`, not from the project. Copy the pair you are using.
+- Dark scene: bg `#1A1A1A` · text `#F0F0F0` · caption `#A3A3A3`
+- Light scene: bg `#F0F0F0` · text `#2A2A2A` · caption `#5E5E5E`
+- Accent: `#3779FF` at display scale; `#5794FF` for blue text on dark, `#214CA3` on light
+- Display font: system stack (`ui-sans-serif, system-ui, sans-serif`), weight 300, -0.025em
+- Body / mono: same stack at 400; `ui-monospace, monospace` for technical labels
+- Where the lift happens: [which beat the background moves dark → offwhite, or "no lift"]
+- Product-native colour kept verbatim: [values the product itself produces, or "none"]
+- Strongest visual element: [what real product output the video will show]
 
 ## Share copy (draft)
 [One sentence for Twitter/X/LinkedIn/Discord. Punchy. Not corporate.]

@@ -24,6 +24,20 @@ to the normal no-voice workflow.
 4. Hands a focused composition brief to Hyperframes.
 5. Validates, renders, and writes share copy.
 
+## Branding is fixed
+
+**Read [references/brand.md](references/brand.md) before Step 2, every run.** This fork carries a
+house brand taken from the IPX UI kit (`Integrated-Projects/ip-ui-platform`): every `/brag` video
+uses the IPX palette and typography no matter what the source project looks like. Step 1 still reads
+the project's own colours and fonts, but only to *describe* the product — never to restyle the video.
+The one exception is product-native colour: a palette the product itself produces and that a viewer
+would recognise in its output. That keeps its exact values inside the product imagery; everything
+around it is IPX.
+
+`brand.md` also carries the measured contrast table. **IP Blue `#3779FF` fails WCAG AA for
+normal-size text on every IPX background, including the dark one**, and `hyperframes check` gates
+contrast as an error. Reading it is what keeps Step 4 from failing.
+
 ## Parsing the invocation
 
 The user may invoke with natural language or flags:
@@ -94,6 +108,7 @@ Scan the project directory and extract the information needed to plan the brag v
 ## Step 2: Plan and storyboard
 
 **Read:** [references/step-2-plan.md](references/step-2-plan.md)
+**Read:** [references/brand.md](references/brand.md) — the fixed palette and type for this video
 
 Write `<output-dir>/brag-plan.md` (where `<output-dir>` is `brag-output/` or the timestamped variant chosen above). Answer the planning rubric. Commit to a creative angle. Write the beat-by-beat storyboard including scenes, text, timing, transitions, and SFX cues.
 

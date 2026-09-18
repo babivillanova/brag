@@ -38,13 +38,18 @@ Create a short launch-style brag video for [App Name].
   - Abstract filler visuals
   - Unrelated visual redesign
 
-## Visual Identity
-- Background: [exact value from project]
-- Text: [exact value from project]
-- Accent: [exact value from project]
-- Display font: [font or fallback decision]
-- Body font: [font or fallback decision]
-- Visual references from the project: [short list]
+## Visual Identity (IPX house brand — fixed, see `references/brand.md`)
+- Dark scene: bg `#1A1A1A` · text `#F0F0F0` · caption `#A3A3A3`
+- Light scene: bg `#F0F0F0` · text `#2A2A2A` · caption `#5E5E5E`
+- Plate for product imagery: `#FFFFFF`, soft drop shadow, no border
+- Accent: `#3779FF` at display scale only. Blue text uses `#5794FF` on dark, `#214CA3` on light.
+  IP Blue fails WCAG AA for normal-size text on every IPX background and `check` gates it as an error.
+- Display font: `ui-sans-serif, system-ui, sans-serif`, weight 300, letter-spacing -0.025em
+- Mono labels: `ui-monospace, monospace`, weight 400, letter-spacing 0.01em
+- Never name a font family (`"Segoe UI"`, `Menlo`, …) without an in-file `@font-face` — `lint` blocks it
+- Figures use `font-variant-numeric: tabular-nums`
+- Product-native colour to preserve verbatim: [values the product produces, or "none"]
+- Visual references from the project: [short list — what real output appears]
 
 ## Storyboard
 Use the storyboard in `brag-output/brag-plan.md` as the creative contract.

@@ -39,7 +39,9 @@ After reading, answer all nine. Write these down before moving to Step 2.
    The one line from the site that earns a reaction.
 
 3. What is the visual hook?
-   The strongest CSS visual: a color palette moment, a UI element, a diagram, a card.
+   The strongest real thing the product makes or shows: its output, a UI element, a diagram, a card.
+   Not a palette — the video's palette is fixed by `references/brand.md`. If the project has no UI
+   at all (a CLI, a pipeline, a library), the hook is its output artefact or its input.
 
 4. What should be shown from the actual UI?
    Which section of the site has the most video-worthy content?
@@ -86,6 +88,11 @@ After reading, answer all nine. Write these down before moving to Step 2.
 
 ## Color extraction
 
+> **The video's palette does not come from here.** This fork uses a fixed house brand — see
+> `references/brand.md`. Read the project's colors to *understand and describe the product*, not to
+> style the video. Do not carry a project background, accent, or text color into `brag-plan.md` or
+> `composition-brief.md` as the video's identity.
+
 When reading CSS, look for custom properties like:
 
 ```css
@@ -98,22 +105,27 @@ When reading CSS, look for custom properties like:
 
 If no custom properties exist, scan for the most-used colors in background, color, and border rules.
 
-Write down:
-- Background color (exact value)
-- Primary text color
-- Accent/brand color
-- Any gradient or special treatment
+What you are looking for is **product-native color**: a palette the product itself *produces*, which
+a viewer would recognise as part of its output. A chart's series colors, a generated artefact's fill,
+a canvas, a rendered document. Those keep their exact values inside the product imagery, because
+changing them would misrepresent the product.
 
-These colors are recorded in `composition-brief.md` and carry into the design spec the current hyperframes-creative workflow scaffolds.
+Write down:
+- Product-native colors, with exact values, and what produces them
+- Whether the project has any visual identity at all (many backend, CLI, and data projects have none
+  — that is a normal answer and changes nothing, because the brand is fixed either way)
 
 ## Font extraction
+
+> Same rule: the video's typography is fixed by `references/brand.md`. Read the project's fonts only
+> if type is part of the product's own output.
 
 Look for:
 - `font-family` declarations in `:root` or `body`
 - Google Fonts `<link>` in `<head>` (the font families are in the URL query string)
 - `@import` statements
 
-Write down the display font (used for headings) and the body font separately.
+Note them as product description. Do not set the video's display or body font from them.
 
 ## What to skip
 
